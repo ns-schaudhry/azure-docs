@@ -60,7 +60,7 @@ Complete the following steps to enable Azure AD single sign-on in the Azure port
 1. On the **Basic SAML Configuration** section, perform the following steps:
 
 	a. In the **Identifier** textbox, type a URL using the following pattern:
-	`https://<Cloud_Exchange_FQDN>.com/api/metadata`
+	`https://<Cloud_Exchange_FQDN>/api/metadata`
 
     b. In the **Reply URL** textbox, type a URL using the following pattern:
     `https://<Cloud_Exchange_FQDN>/api/ssoauth?acs=true`
@@ -85,7 +85,7 @@ Complete the following steps to enable Azure AD single sign-on in the Azure port
    > [!NOTE]
    > Please click [here](../develop/howto-add-app-roles-in-azure-ad-apps.md#app-roles-ui) to know how to configure Role in Azure AD.
 
-1. On the **Set-up single sign-on with SAML** page, in the **SAML Signing Certificate** section, find **Certificate (Raw)** and select **Download** to download the certificate and save it on your computer.
+1. On the **Set-up single sign-on with SAML** page, in the **SAML Signing Certificate** section, find **Certificate (Base64)** and select **Download** to download the certificate and save it on your computer.
 
     ![Screenshot shows the Certificate download link.](common/certificateraw.png "Certificate")
 
@@ -95,7 +95,7 @@ Complete the following steps to enable Azure AD single sign-on in the Azure port
 
 ## Configure Netskope Cloud Exchange Administration Console SSO
 
-To configure single sign-on on **Netskope Cloud Exchange Administration Console** side, you need to send the downloaded **Certificate (Raw)** and appropriate copied URLs from Azure portal to [Netskope Cloud Exchange Administration Console support team](mailto:support@netskope.com). They set this setting to have the SAML SSO connection set properly on both sides
+To configure single sign-on on **Netskope Cloud Exchange Administration Console** side, you need to send the downloaded **Certificate (Base64)** and appropriate copied URLs from Azure portal to [Netskope Cloud Exchange Administration Console support team](mailto:support@netskope.com). They set this setting to have the SAML SSO connection set properly on both sides
 
 ### Create Netskope Cloud Exchange Administration Console test user
 
